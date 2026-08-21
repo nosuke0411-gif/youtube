@@ -383,7 +383,7 @@ def register():
         conn.close()
         return redirect("/login")
 
-    return render_template_string("""
+    return render_template_string"""
 <!DOCTYPE html>
 <html>
 <head>
@@ -417,7 +417,7 @@ def register():
 
 </body>
 </html>
-""")
+"""
 # ==========================
 # ゲーム一覧
 # ==========================
