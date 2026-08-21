@@ -1298,7 +1298,7 @@ async function resultPoker() {{
     const res = await fetch("/poker_bot_result", {{
         method:"POST",
         headers:{{"Content-Type":"application/json"}},
-        body:JSON.stringify({{} })
+        body:JSON.stringify({{}})
     }});
 
     const data = await res.json();
