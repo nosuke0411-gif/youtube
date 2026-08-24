@@ -444,7 +444,7 @@ def games():
         background-position: center;
         background-repeat: no-repeat;
         margin: 0;
-        padding: 200px 0 0 0;
+        padding: 300px 0 0 0;
         overflow-x: hidden;
     }
 
