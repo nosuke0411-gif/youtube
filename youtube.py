@@ -1633,7 +1633,7 @@ let canvas = document.getElementById("gameCanvas");
 let ctx = canvas.getContext("2d");
 
 let dino = { x:50, y:150, width:40, height:40, vy:0, jump:false };
-let cactus = { x:600, y:160, width:20, height:40 };
+let cactus = { x:600, y:150, width:20, height:40 };
 let score = 0;
 
 function draw() {
