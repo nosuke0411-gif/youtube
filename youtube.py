@@ -1053,8 +1053,8 @@ function startGame() {
     document.getElementById("stopBtn").style.display = "inline-block";
 
     intervalId = setInterval(() => {
-        let left = Math.floor(Math.random() * 100) + 1;
-        let right = Math.floor(Math.random() * 100) + 1;
+        let left = Math.floor(Math.random() * 10) + 1;
+        let right = Math.floor(Math.random() * 10) + 1;
         finalResult = left * right;
 
         document.getElementById("left").innerText = left;
